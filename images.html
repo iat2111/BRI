@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intital-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+    <title><font>home</font></title> 
+
+  </head>
+ 
+  <body a link="black" vlink="black"> 
+    <center><h1>一带一路</h1>
+    </center>
+    <center><h2>THE GRAY ARCHITECTURE OF COAL</h2></center>
+    <center>
+      <div>
+        <a href="./index.html">home</a>  |  <a href="./text.html">text</a>  |  <b>images</b>  |  <a href="./resources.html">resources</a>  |  <a href="./contact.html">contact</a> 
+      </div>
+    </center>
+
+ 
+    <h2 class="w3-center"></h2>
+
+    <div class="slideshow-container">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/NYT_Meng Arrest.png" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/G20(1).png" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/Wired_Cold War.png" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/FP_Cold War.png" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/NYT_Tech Race.png" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/Paglen_Guam.jpg" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/Paglen_North Pacific Ocean_2016.jpg" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/BRI_Pakistan_img_5.jpg" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/BRI_Pakistan_img_6.jpg" style="width:100%">
+        <img class="mySlides" src="/Users/isetan/Desktop/ARCH 6861/BRI/Images/BRI_Pakistan_img_12.jpg" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+        <img class="mySlides" src="" style="width:100%">
+
+
+      <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="next" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  </body>
+</html>

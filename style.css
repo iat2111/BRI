@@ -1,0 +1,71 @@
+
+body {
+	background-color: white;
+}
+
+h1 {
+		font-family: "Arial Black", Gadget, sans-serif;
+		color: red;
+}
+
+h2 {
+		font-family: Georgia, serif;
+}
+
+
+div {
+		font-family: "Courier New", Courier, monospace;	
+}
+
+#one {
+		padding-top: 50px;
+		padding-right: 200px;
+		padding-left: 200px;
+		font-family: "Courier New", Courier, monospace;	
+		font-size: 12px;
+}
+
+#two {
+		padding-top: 50px;
+		padding-right: 200px;
+		padding-left: 200px;
+		font-family: "Courier New", Courier, monospace;	
+		font-size: 10px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  height: 500px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  height: 100%;
+  max-width:100%;
+  object-fit: contain;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  height: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: red;
+}
+
+
+
+
